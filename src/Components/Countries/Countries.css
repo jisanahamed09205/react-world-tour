@@ -1,0 +1,14 @@
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.visited{
+    background-color: aquamarine;
+    color: black;
+}
+.non-visited{
+    background-color: blueviolet;
+}
+.flag-container img{
+    width: 100px;
+}
